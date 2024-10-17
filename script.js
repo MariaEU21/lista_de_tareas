@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const taskList = document.getElementById('taskList');
     const completedTaskList = document.getElementById('completedTaskList');
 
-    const googleAppsScriptUrl = 'https://script.google.com/macros/s/AKfycbz3thEB6kGH4XAL688teshl31JddsJoODTLenmExu-o7cC1rT9qxeq7nI4-uiP8iTd8/exec';
+    const googleAppsScriptUrl = 'https://cors-anywhere.herokuapp.com/https://script.google.com/macros/s/AKfycbz3thEB6kGH4XAL688teshl31JddsJoODTLenmExu-o7cC1rT9qxeq7nI4-uiP8iTd8/exec';
+
 
     // Cargar las tareas desde Google Sheets cuando se cargue la página
     loadTasksFromGoogleSheets();
